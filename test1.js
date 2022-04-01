@@ -7,7 +7,7 @@ document.querySelector(".set-id").addEventListener('click', ()=>{
     peer = new Peer(myid, {debug: 3,
         host: '9000-peers-peerjsserver-m7p3neex58r.ws-eu38.gitpod.io/myapp',
         port: 9000,
-        path: '/myapp'})
+        path: '/'})
 
 })
 
